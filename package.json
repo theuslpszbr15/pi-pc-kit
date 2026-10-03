@@ -1,0 +1,25 @@
+{
+  "name": "pi-pc-kit",
+  "version": "0.1.0",
+  "description": "Pacote para o Pi: navegador via Playwright MCP e controle do Windows (janelas, cliques, digitação, prints).",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "dependencies": {
+    "@playwright/mcp": "0.0.83"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
